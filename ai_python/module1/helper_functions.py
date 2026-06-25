@@ -8,10 +8,14 @@ import random
 
 #Get the OpenAI API key from the .env file
 load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'), override=True)
-openai_api_key = os.getenv('OPENAI_API_KEY')
 
 # Set up the OpenAI client
-client = OpenAI(api_key=openai_api_key)
+client = OpenAI(
+    api_key=os.getenv("GROQ_API_KEY"),
+    base_url="https://api.groq.com/openai/v1"
+)
+
+AI_MODEL = "llama-3.3-70b-versatile"
 
 
 def print_llm_response(prompt):
@@ -31,7 +35,7 @@ def get_llm_response(prompt):
         if not isinstance(prompt, str):
             raise ValueError("Input must be a string enclosed in quotes.")
         completion = client.chat.completions.create(
-            model="gpt-3.5-turbo-0125",
+            model=AI_MODEL,
             messages=[
                 {
                     "role": "system",
@@ -51,7 +55,7 @@ def get_chat_completion(prompt, history):
     history_string = "\n\n".join(["\n".join(turn) for turn in history])
     prompt_with_history = f"{history_string}\n\n{prompt}"
     completion = client.chat.completions.create(
-        model="gpt-3.5-turbo-0125",
+        model=AI_MODEL,
         messages=[
             {
                 "role": "system",
