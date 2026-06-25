@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 import random
 
 #Get the OpenAI API key from the .env file
-load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'), override=True)
+load_dotenv(os.path.join(os.path.dirname(__file__), '', '.env'), override=True)
 
 # Set up the OpenAI client
 client = OpenAI(

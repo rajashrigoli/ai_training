@@ -1,4 +1,11 @@
-from helper_functions import print_llm_response
+try:
+	from ai_python.helper_functions import print_llm_response
+except ModuleNotFoundError:
+	import os
+	import sys
+
+	sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+	from helper_functions import print_llm_response
 
 
 print_llm_response("What is capital of France?")
