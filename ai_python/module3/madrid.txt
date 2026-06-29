@@ -1,0 +1,13 @@
+id,name,category,area,rating,daily_visitors,avg_spend_eur
+1,Prado Museum,Art,Retiro,4.8,7400,28
+2,Royal Palace of Madrid,Historical,Centro,4.7,6900,24
+3,Plaza Mayor,Landmark,Centro,4.6,12800,18
+4,Retiro Park,Park,Retiro,4.8,11500,12
+5,Puerta del Sol,Landmark,Centro,4.5,14900,16
+6,Santiago Bernabeu Stadium,Sports,Chamartin,4.7,8300,35
+7,Mercado de San Miguel,Food,Centro,4.6,9700,26
+8,Gran Via,Shopping,Centro,4.5,13600,31
+9,Thyssen-Bornemisza Museum,Art,Centro,4.6,4100,22
+10,Temple of Debod,Cultural,Moncloa-Aravaca,4.4,3600,10
+11,Matadero Madrid,Cultural,Arganzuela,4.3,2400,14
+12,Casa de Campo,Leisure,Moncloa-Aravaca,4.4,5200,11

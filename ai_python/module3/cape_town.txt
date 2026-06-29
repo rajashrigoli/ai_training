@@ -1,0 +1,13 @@
+id,name,category,area,rating,daily_visitors,avg_spend_zar
+1,Table Mountain,Nature,Tafelberg Road,4.9,5200,180
+2,Robben Island,Historical,Table Bay,4.8,2100,260
+3,V&A Waterfront,Shopping,Granger Bay,4.7,8800,450
+4,Kirstenbosch Gardens,Park,Newlands,4.8,3400,140
+5,Cape Point,Nature,Cape Peninsula,4.7,2900,220
+6,Bo-Kaap Museum,Cultural,Bo-Kaap,4.5,950,90
+7,Two Oceans Aquarium,Family,V&A Waterfront,4.6,1700,190
+8,Camps Bay Beach,Leisure,Camps Bay,4.6,4100,120
+9,Zeitz MOCAA,Art,Silo District,4.4,1300,210
+10,Greenmarket Square,Market,City Centre,4.3,2400,80
+11,Signal Hill,Nature,City Bowl,4.6,2800,70
+12,Castle of Good Hope,Historical,City Centre,4.2,1100,95

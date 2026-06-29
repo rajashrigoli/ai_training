@@ -1,0 +1,13 @@
+id,name,category,area,rating,daily_visitors,avg_spend_jpy
+1,Senso-ji Temple,Historical,Asakusa,4.8,12500,1800
+2,Tokyo Skytree,Observation,Sumida,4.7,9800,3200
+3,Shibuya Crossing,Landmark,Shibuya,4.6,21000,1500
+4,Meiji Jingu,Shrine,Shibuya,4.8,7600,900
+5,Tsukiji Outer Market,Food,Chuo,4.7,8900,2600
+6,Ueno Park,Park,Taito,4.5,11200,700
+7,Akihabara Electric Town,Shopping,Chiyoda,4.6,14300,4100
+8,Tokyo National Museum,Cultural,Taito,4.5,3800,1400
+9,teamLab Planets,Art,Koto,4.7,5200,3600
+10,Imperial Palace East Gardens,Garden,Chiyoda,4.4,2900,500
+11,Harajuku Takeshita Street,Leisure,Shibuya,4.3,15400,2200
+12,Odaiba Seaside Park,Leisure,Minato,4.4,6100,1700

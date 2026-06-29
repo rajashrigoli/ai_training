@@ -1,0 +1,13 @@
+trip_id,traveler_name,city,country,start_date,end_date,days,flight_cost_usd,hotel_cost_usd,food_budget_usd,local_transport_usd,activities_usd,total_budget_usd,priority
+1,Ava Patel,Tokyo,Japan,2026-09-10,2026-09-16,7,980,840,350,120,260,2550,high
+2,Ava Patel,Madrid,Spain,2026-09-18,2026-09-23,6,420,660,240,90,180,1590,medium
+3,Ava Patel,Cape Town,South Africa,2026-09-25,2026-09-30,6,610,540,210,85,220,1665,high
+4,Liam Chen,Tokyo,Japan,2026-10-05,2026-10-11,7,1020,910,390,140,300,2760,high
+5,Liam Chen,Madrid,Spain,2026-10-13,2026-10-17,5,460,520,210,70,150,1410,low
+6,Liam Chen,Cape Town,South Africa,2026-10-19,2026-10-24,6,640,580,240,95,260,1815,medium
+7,Sophia Ndlovu,Tokyo,Japan,2026-11-02,2026-11-07,6,950,780,330,110,240,2410,medium
+8,Sophia Ndlovu,Madrid,Spain,2026-11-09,2026-11-14,6,430,640,250,85,190,1595,high
+9,Sophia Ndlovu,Cape Town,South Africa,2026-11-16,2026-11-21,6,590,500,220,80,210,1600,low
+10,Noah Williams,Tokyo,Japan,2026-12-01,2026-12-08,8,1100,980,430,150,320,2980,high
+11,Noah Williams,Madrid,Spain,2026-12-10,2026-12-15,6,450,700,260,95,200,1705,medium
+12,Noah Williams,Cape Town,South Africa,2026-12-17,2026-12-22,6,620,560,230,90,240,1740,medium
