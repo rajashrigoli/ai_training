@@ -1,0 +1,16 @@
+id,make,model,year,fuel_type,transmission,mileage_km,color,doors,engine_cc,price_usd
+1,Toyota,Corolla,2020,Petrol,Automatic,45200,White,4,1798,17800
+2,Honda,Civic,2019,Petrol,Automatic,53800,Black,4,1996,16950
+3,Ford,Focus,2018,Diesel,Manual,67200,Blue,4,1499,13400
+4,Hyundai,Elantra,2021,Petrol,Automatic,31500,Silver,4,1999,20100
+5,Kia,Rio,2017,Petrol,Manual,78100,Red,4,1368,9800
+6,Nissan,Sentra,2020,Petrol,Automatic,42900,Gray,4,1799,16200
+7,Volkswagen,Golf,2019,Diesel,Automatic,55700,White,4,1968,18900
+8,Skoda,Octavia,2021,Diesel,Automatic,28800,Black,4,1968,22300
+9,Mazda,3,2022,Petrol,Automatic,22100,Blue,4,1998,24600
+10,Subaru,Impreza,2018,Petrol,Manual,69300,Silver,4,1995,14150
+11,BMW,320i,2020,Petrol,Automatic,39800,White,4,1998,31900
+12,Audi,A4,2019,Diesel,Automatic,48600,Gray,4,1968,29800
+13,Mercedes-Benz,C200,2021,Petrol,Automatic,26700,Black,4,1497,36500
+14,Tesla,Model 3,2022,Electric,Automatic,18400,White,4,0,41200
+15,Renault,Clio,2017,Petrol,Manual,85200,Red,4,1197,8900

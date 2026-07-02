@@ -129,3 +129,59 @@ def calculate_llm_cost(characters, price_per_1000_tokens=0.015):
     tokens = characters / 4
     cost = (tokens / 1000) * price_per_1000_tokens
     return f"${cost:.4f}"
+
+def display_map():
+    # Define the bounding box for the continental US
+    us_bounds = [[24.396308, -125.0], [49.384358, -66.93457]]
+    # Create the map centered on the US with limited zoom levels
+    m = folium.Map(
+	    location=[37.0902, -95.7129],  # Center the map on the geographic center of the US
+	    zoom_start=5,  # Starting zoom level
+	    min_zoom=4,  # Minimum zoom level
+	    max_zoom=10,
+	    max_bounds=True,
+	    control_scale=True  # Maximum zoom level
+	)
+
+    # Set the bounds to limit the map to the continental US
+    m.fit_bounds(us_bounds)
+    # Add a click event to capture the coordinates
+    m.add_child(folium.LatLngPopup())
+    title_html = '''
+	<div style="
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%; 
+	height: 50px; 
+	border:0px solid grey; 
+	z-index:9999; 
+	font-size:30px;
+	padding: 5px;
+	background-color:white;
+	text-align: center;
+	">
+	&nbsp;<b>Click to view coordinates</b>
+	</div>
+	'''
+	
+    m.get_root().html.add_child(folium.Element(title_html))
+
+    # Display the map
+    return m
+    
+def get_forecast(lat, lon):
+    url = f"https://api.weather.gov/points/{lat},{lon}"
+
+    # Make the request to get the grid points
+    response = requests.get(url)
+    data = response.json()
+    # Extract the forecast URL from the response
+    forecast_url = data['properties']['forecast']
+
+    # Make a request to the forecast URL for the selected location
+    forecast_response = requests.get(forecast_url)
+    forecast_data = forecast_response.json()
+    
+    daily_forecast = forecast_data['properties']['periods']
+    return daily_forecast
