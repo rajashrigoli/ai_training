@@ -46,3 +46,31 @@ if text_generator is None:
 else:
     output = text_generator(prompt, max_new_tokens=50, do_sample=False,)
     print("Generated text:\n", output[0]["generated_text"])
+
+
+print("\nModel architecture:\n")
+print(model)
+
+print("\nEmbedding tokens :\n")
+print(model.model.embed_tokens)
+
+print("\nFirst layer of the model:\n")
+print(model.model.layers[0])
+
+
+prompt = "The capital of France is"
+input_ids = tokenizer(prompt, return_tensors="pt").input_ids
+print("\nInput IDs:\n", input_ids)
+
+model_output = model.model(input_ids)
+print("\nModel output before llm head:\n", model_output)
+
+lm_head_output = model.lm_head(model_output[0])
+print("\nLLM head output shape:\n", lm_head_output.shape)
+
+token_id = lm_head_output[0,-1].argmax(-1)
+print("\nPredicted token ID:\n", token_id)
+
+predicted_token = tokenizer.decode(token_id)
+print("\nPredicted token:\n", predicted_token)
+
