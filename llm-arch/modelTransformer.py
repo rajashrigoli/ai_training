@@ -12,10 +12,10 @@ from transformers.utils import is_torch_available
 LOCAL_MODEL_DIR = (
     Path(__file__).resolve().parents[1]
     / "models"
-    / "microsoft"
-    / "Phi-3-mini-4k-instruct"
+    / "TinyLlama"
+    / "TinyLlama-1.1B-Chat-v1.0"
 )
-HUB_MODEL_ID = "microsoft/Phi-3-mini-4k-instruct"
+HUB_MODEL_ID = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 
 model_source = str(LOCAL_MODEL_DIR) if LOCAL_MODEL_DIR.exists() else HUB_MODEL_ID
 
@@ -35,7 +35,7 @@ text_generator = pipeline(
     model=model,
     tokenizer=tokenizer,
     return_full_text=False,
-    max_new_tokens=50, 
+    max_new_tokens=20, 
     do_sample=False,
 )
 
