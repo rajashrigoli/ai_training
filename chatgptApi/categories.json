@@ -1,0 +1,54 @@
+{
+  "categories": [
+    "Audio Equipment",
+    "Cameras and Camcorders",
+    "Computers and Laptops",
+    "Gaming Consoles and Accessories",
+    "Smartphones and Accessories",
+    "Televisions and Home Theater Systems"
+  ],
+  "category_to_products": {
+    "Audio Equipment": [
+      "AudioPhonic Noise-Canceling Headphones",
+      "AudioPhonic True Wireless Earbuds",
+      "AudioPhonic Turntable",
+      "WaveSound Bluetooth Speaker",
+      "WaveSound Soundbar"
+    ],
+    "Cameras and Camcorders": [
+      "ActionCam 4K",
+      "FotoSnap DSLR Camera",
+      "FotoSnap Instant Camera",
+      "FotoSnap Mirrorless Camera",
+      "ZoomMaster Camcorder"
+    ],
+    "Computers and Laptops": [
+      "BlueWave Chromebook",
+      "BlueWave Gaming Laptop",
+      "PowerLite Convertible",
+      "TechPro Desktop",
+      "TechPro Ultrabook"
+    ],
+    "Gaming Consoles and Accessories": [
+      "GameSphere VR Headset",
+      "GameSphere X",
+      "GameSphere Y",
+      "ProGamer Controller",
+      "ProGamer Racing Wheel"
+    ],
+    "Smartphones and Accessories": [
+      "MobiTech PowerCase",
+      "MobiTech Wireless Charger",
+      "SmartX EarBuds",
+      "SmartX MiniPhone",
+      "SmartX ProPhone"
+    ],
+    "Televisions and Home Theater Systems": [
+      "CineView 4K TV",
+      "CineView 8K TV",
+      "CineView OLED TV",
+      "SoundMax Home Theater",
+      "SoundMax Soundbar"
+    ]
+  }
+}

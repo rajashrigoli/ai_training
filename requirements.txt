@@ -10,3 +10,8 @@ trl==0.6.0
 datasets==5.0.0
 evaluate==0.4.6
 pandas==2.0.3
+panel==1.4.5
+
+# LLM API client
+openai==1.98.0
+python-dotenv==1.0.1
